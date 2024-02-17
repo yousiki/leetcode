@@ -9,4 +9,4 @@ edition = "2021"
 
 [[bin]]
 name = "p705"
-path = "705.设计哈希集合.rs"
+path = "src/p705.rs"
