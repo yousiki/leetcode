@@ -8,6 +8,10 @@ edition = "2021"
 [dependencies]
 
 [[bin]]
+name = "p149"
+path = "src/p149.rs"
+
+[[bin]]
 name = "p232"
 path = "src/p232.rs"
 
