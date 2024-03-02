@@ -32,6 +32,10 @@ name = "p1641"
 path = "src/p1641.rs"
 
 [[bin]]
+name = "p1860"
+path = "src/p1860.rs"
+
+[[bin]]
 name = "p2148"
 path = "src/p2148.rs"
 
