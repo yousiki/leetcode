@@ -59,7 +59,22 @@ impl Solution {
 }
 // @lc code=end
 
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn case1() {
+        assert_eq!(Solution::arrange_coins(5), 2);
+    }
+
+    #[test]
+    fn case2() {
+        assert_eq!(Solution::arrange_coins(8), 3);
+    }
+}
+
 fn main() {
-    assert_eq!(Solution::arrange_coins(5), 2);
-    assert_eq!(Solution::arrange_coins(8), 3);
+    println!("{}", Solution::arrange_coins(5));
+    println!("{}", Solution::arrange_coins(8));
 }

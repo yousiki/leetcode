@@ -98,8 +98,33 @@ impl Solution {
 }
 // @lc code=end
 
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn case1() {
+        assert_eq!(Solution::max_subarray_sum_circular(vec![1, -2, 3, -2]), 3);
+    }
+
+    #[test]
+    fn case2() {
+        assert_eq!(Solution::max_subarray_sum_circular(vec![5, -3, 5]), 10);
+    }
+
+    #[test]
+    fn case3() {
+        assert_eq!(Solution::max_subarray_sum_circular(vec![3, -2, 2, -3]), 3);
+    }
+}
+
 fn main() {
-    assert_eq!(Solution::max_subarray_sum_circular(vec![1, -2, 3, -2]), 3);
-    assert_eq!(Solution::max_subarray_sum_circular(vec![5, -3, 5]), 10);
-    assert_eq!(Solution::max_subarray_sum_circular(vec![3, -2, 2, -3]), 3);
+    let nums = vec![1, -2, 3, -2];
+    println!("{}", Solution::max_subarray_sum_circular(nums));
+
+    let nums = vec![5, -3, 5];
+    println!("{}", Solution::max_subarray_sum_circular(nums));
+
+    let nums = vec![3, -2, 2, -3];
+    println!("{}", Solution::max_subarray_sum_circular(nums));
 }

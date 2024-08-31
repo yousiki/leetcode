@@ -76,7 +76,22 @@ impl Solution {
 }
 // @lc code=end
 
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn case1() {
+        assert_eq!(Solution::distinct_integers(5), 4);
+    }
+
+    #[test]
+    fn case2() {
+        assert_eq!(Solution::distinct_integers(3), 2);
+    }
+}
+
 fn main() {
-    assert_eq!(Solution::distinct_integers(5), 4);
-    assert_eq!(Solution::distinct_integers(3), 2);
+    println!("{}", Solution::distinct_integers(5));
+    println!("{}", Solution::distinct_integers(3));
 }

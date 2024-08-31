@@ -66,7 +66,22 @@ impl Solution {
 }
 // @lc code=end
 
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn case1() {
+        assert_eq!(Solution::count_elements(vec![11, 7, 2, 15]), 2);
+    }
+
+    #[test]
+    fn case2() {
+        assert_eq!(Solution::count_elements(vec![-3, 3, 3, 90]), 2);
+    }
+}
+
 fn main() {
-    assert_eq!(Solution::count_elements(vec![11, 7, 2, 15]), 2);
-    assert_eq!(Solution::count_elements(vec![-3, 3, 3, 90]), 2);
+    println!("{}", Solution::count_elements(vec![11, 7, 2, 15]));
+    println!("{}", Solution::count_elements(vec![-3, 3, 3, 90]));
 }

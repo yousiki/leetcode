@@ -78,9 +78,34 @@ impl Solution {
 }
 // @lc code=end
 
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn case1() {
+        assert_eq!(Solution::count_vowel_strings(1), 5);
+    }
+
+    #[test]
+    fn case2() {
+        assert_eq!(Solution::count_vowel_strings(2), 15);
+    }
+
+    #[test]
+    fn case3() {
+        assert_eq!(Solution::count_vowel_strings(33), 66045);
+    }
+
+    #[test]
+    fn case4() {
+        assert_eq!(Solution::count_vowel_strings(50), 316251);
+    }
+}
+
 fn main() {
-    assert_eq!(Solution::count_vowel_strings(1), 5);
-    assert_eq!(Solution::count_vowel_strings(2), 15);
-    assert_eq!(Solution::count_vowel_strings(33), 66045);
-    assert_eq!(Solution::count_vowel_strings(50), 316251);
+    println!("{}", Solution::count_vowel_strings(1));
+    println!("{}", Solution::count_vowel_strings(2));
+    println!("{}", Solution::count_vowel_strings(33));
+    println!("{}", Solution::count_vowel_strings(50));
 }

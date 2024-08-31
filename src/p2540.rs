@@ -66,7 +66,25 @@ impl Solution {
 }
 // @lc code=end
 
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn case1() {
+        assert_eq!(Solution::get_common(vec![1, 2, 3], vec![2, 4]), 2);
+    }
+
+    #[test]
+    fn case2() {
+        assert_eq!(Solution::get_common(vec![1, 2, 3, 6], vec![2, 3, 4, 5]), 2);
+    }
+}
+
 fn main() {
-    assert_eq!(Solution::get_common(vec![1, 2, 3], vec![2, 4]), 2);
-    assert_eq!(Solution::get_common(vec![1, 2, 3, 6], vec![2, 3, 4, 5]), 2);
+    println!("{}", Solution::get_common(vec![1, 2, 3], vec![2, 4]));
+    println!(
+        "{}",
+        Solution::get_common(vec![1, 2, 3, 6], vec![2, 3, 4, 5])
+    );
 }

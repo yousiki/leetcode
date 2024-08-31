@@ -113,18 +113,36 @@ impl MyHashSet {
  */
 // @lc code=end
 
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn case1() {
+        let mut obj = MyHashSet::new();
+        obj.add(1);
+        obj.add(2);
+        let ret_3: bool = obj.contains(1);
+        assert_eq!(ret_3, true);
+        let ret_4: bool = obj.contains(3);
+        assert_eq!(ret_4, false);
+        obj.add(2);
+        let ret_5: bool = obj.contains(2);
+        assert_eq!(ret_5, true);
+        obj.remove(2);
+        let ret_6: bool = obj.contains(2);
+        assert_eq!(ret_6, false);
+    }
+}
+
 fn main() {
     let mut obj = MyHashSet::new();
     obj.add(1);
     obj.add(2);
-    let ret_3: bool = obj.contains(1);
-    assert_eq!(ret_3, true);
-    let ret_4: bool = obj.contains(3);
-    assert_eq!(ret_4, false);
+    println!("{}", obj.contains(1));
+    println!("{}", obj.contains(3));
     obj.add(2);
-    let ret_5: bool = obj.contains(2);
-    assert_eq!(ret_5, true);
+    println!("{}", obj.contains(2));
     obj.remove(2);
-    let ret_6: bool = obj.contains(2);
-    assert_eq!(ret_6, false);
+    println!("{}", obj.contains(2));
 }

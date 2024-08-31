@@ -130,11 +130,26 @@ impl MyQueue {
  */
 // @lc code=end
 
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn case1() {
+        let mut obj = MyQueue::new();
+        obj.push(1);
+        obj.push(2);
+        assert_eq!(obj.peek(), 1);
+        assert_eq!(obj.pop(), 1);
+        assert_eq!(obj.empty(), false);
+    }
+}
+
 fn main() {
     let mut obj = MyQueue::new();
     obj.push(1);
     obj.push(2);
-    assert_eq!(obj.peek(), 1);
-    assert_eq!(obj.pop(), 1);
-    assert_eq!(obj.empty(), false);
+    println!("{}", obj.peek());
+    println!("{}", obj.pop());
+    println!("{}", obj.empty());
 }

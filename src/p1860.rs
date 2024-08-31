@@ -96,7 +96,22 @@ impl Solution {
 }
 // @lc code=end
 
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn case1() {
+        assert_eq!(Solution::mem_leak(2, 2), vec![3, 1, 0]);
+    }
+
+    #[test]
+    fn case2() {
+        assert_eq!(Solution::mem_leak(8, 11), vec![6, 0, 4]);
+    }
+}
+
 fn main() {
-    assert_eq!(Solution::mem_leak(2, 2), vec![3, 1, 0]);
-    assert_eq!(Solution::mem_leak(8, 11), vec![6, 0, 4]);
+    println!("{:?}", Solution::mem_leak(2, 2));
+    println!("{:?}", Solution::mem_leak(8, 11));
 }
