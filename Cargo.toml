@@ -60,12 +60,16 @@ name = "p2540"
 path = "src/p2540.rs"
 
 [[bin]]
+name = "p2549"
+path = "src/p2549.rs"
+
+[[bin]]
 name = "p2708"
 path = "src/p2708.rs"
 
 [[bin]]
-name = "p2549"
-path = "src/p2549.rs"
+name = "p2860"
+path = "src/p2860.rs"
 
 [[bin]]
 name = "p3127"
