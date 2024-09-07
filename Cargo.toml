@@ -98,3 +98,7 @@ path = "src/p3174.rs"
 [[bin]]
 name = "p3176"
 path = "src/p3176.rs"
+
+[[bin]]
+name = "p3177"
+path = "src/p3177.rs"
