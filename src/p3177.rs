@@ -64,57 +64,32 @@ use std::collections::HashMap;
 impl Solution {
     pub fn maximum_length(nums: Vec<i32>, k: i32) -> i32 {
         let (nums, n) = Solution::unique_map(nums);
-        let mut dp = vec![vec![0; n as usize + 1]; k as usize + 1];
-        let mut tree1 = vec![vec![0; n as usize + 1]; k as usize + 1];
-        let mut tree2 = vec![vec![0; n as usize + 1]; k as usize + 1];
-        nums.iter().for_each(|&num| {
-            let num_rev = n - num + 1;
-            for i in 0..=k as usize {
-                let mut new_dp = dp[i][num as usize] + 1;
+        let mut dp = vec![vec![0; n]; k as usize + 1];
+        let mut max = vec![0; k as usize + 1];
+        for num in nums.into_iter() {
+            for i in (0..=k as usize).rev() {
+                // prev == num: dp[i][num] = dp[i][num] + 1
+                dp[i][num] = dp[i][num] + 1;
+                // prev != num: dp[i][num] = max_j(dp[i-1][j]) + 1
                 if i > 0 {
-                    new_dp = new_dp.max(Solution::query(&tree1[i - 1], num as usize - 1) + 1);
-                    new_dp = new_dp.max(Solution::query(&tree2[i - 1], num_rev as usize - 1) + 1);
+                    dp[i][num] = dp[i][num].max(max[i - 1] + 1);
                 }
-                dp[i][num as usize] = new_dp;
-                Solution::add(tree1[i].as_mut(), num as usize, new_dp);
-                Solution::add(tree2[i].as_mut(), num_rev as usize, new_dp);
+                max[i] = max[i].max(dp[i][num]);
             }
-        });
-        dp.iter()
-            .map(|row| *row.iter().max().unwrap())
-            .max()
-            .unwrap()
+        }
+        max[k as usize] as i32
     }
 
-    fn unique_map(nums: Vec<i32>) -> (Vec<i32>, i32) {
+    fn unique_map(nums: Vec<i32>) -> (Vec<usize>, usize) {
         let map = nums
             .iter()
-            .fold(HashMap::new(), |mut map: HashMap<i32, i32>, &num| {
+            .fold(HashMap::new(), |mut map: HashMap<i32, usize>, &num| {
                 if !map.contains_key(&num) {
-                    map.insert(num, map.len() as i32);
+                    map.insert(num, map.len());
                 }
                 map
             });
-        (
-            nums.iter().map(|&num| map[&num] + 1).collect(),
-            map.len() as i32,
-        )
-    }
-
-    fn add(tree: &mut Vec<i32>, mut p: usize, v: i32) {
-        while p < tree.len() {
-            tree[p] = tree[p].max(v);
-            p += p & p.wrapping_neg();
-        }
-    }
-
-    fn query(tree: &Vec<i32>, mut p: usize) -> i32 {
-        let mut res = 0;
-        while p > 0 {
-            res = res.max(tree[p]);
-            p -= p & p.wrapping_neg();
-        }
-        res
+        (nums.iter().map(|&num| map[&num]).collect(), map.len())
     }
 }
 // @lc code=end
@@ -141,6 +116,6 @@ mod tests {
 
 fn main() {
     println!("{}", Solution::maximum_length(vec![1, 2, 1, 1, 3], 2));
-    // println!("{}", Solution::maximum_length(vec![1, 2, 3, 4, 5, 1], 0));
-    // println!("{}", Solution::maximum_length(vec![1, 2, 1, 1, 3], 0));
+    println!("{}", Solution::maximum_length(vec![1, 2, 3, 4, 5, 1], 0));
+    println!("{}", Solution::maximum_length(vec![1, 2, 1, 1, 3], 0));
 }
