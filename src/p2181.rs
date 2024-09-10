@@ -104,6 +104,61 @@ impl Solution {
 }
 // @lc code=end
 
+fn vec_to_list(values: Vec<i32>) -> Option<Box<ListNode>> {
+    let mut head = None;
+    for &val in values.iter().rev() {
+        let mut node = ListNode::new(val);
+        node.next = head;
+        head = Some(Box::new(node));
+    }
+    head
+}
+
+fn list_to_vec(mut head: Option<Box<ListNode>>) -> Vec<i32> {
+    let mut result = Vec::new();
+    while let Some(node) = head {
+        result.push(node.val);
+        head = node.next;
+    }
+    result
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn case1() {
+        assert_eq!(
+            list_to_vec(Solution::merge_nodes(vec_to_list(vec![
+                0, 3, 1, 0, 4, 5, 2, 0
+            ]))),
+            vec![4, 11]
+        );
+    }
+
+    #[test]
+    fn case2() {
+        assert_eq!(
+            list_to_vec(Solution::merge_nodes(vec_to_list(vec![
+                0, 1, 0, 3, 0, 2, 2, 0
+            ]))),
+            vec![1, 3, 4]
+        );
+    }
+}
+
 fn main() {
-    println!("Examples not available");
+    println!(
+        "{:?}",
+        list_to_vec(Solution::merge_nodes(vec_to_list(vec![
+            0, 3, 1, 0, 4, 5, 2, 0
+        ])))
+    );
+    println!(
+        "{:?}",
+        list_to_vec(Solution::merge_nodes(vec_to_list(vec![
+            0, 1, 0, 3, 0, 2, 2, 0
+        ])))
+    );
 }
