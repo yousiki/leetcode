@@ -1,47 +1,6 @@
-[package]
-name = "leetcode"
-version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-
 [[bin]]
 name = "p1"
 path = "src/p1.rs"
-
-[[bin]]
-name = "p149"
-path = "src/p149.rs"
-
-[[bin]]
-name = "p232"
-path = "src/p232.rs"
-
-[[bin]]
-name = "p441"
-path = "src/p441.rs"
-
-[[bin]]
-name = "p705"
-path = "src/p705.rs"
-
-[[bin]]
-name = "p709"
-path = "src/p709.rs"
-
-[[bin]]
-name = "p880"
-path = "src/p880.rs"
-
-[[bin]]
-name = "p918"
-path = "src/p918.rs"
-
-[[bin]]
-name = "p977"
-path = "src/p977.rs"
 
 [[bin]]
 name = "p1388"
@@ -50,6 +9,10 @@ path = "src/p1388.rs"
 [[bin]]
 name = "p1450"
 path = "src/p1450.rs"
+
+[[bin]]
+name = "p149"
+path = "src/p149.rs"
 
 [[bin]]
 name = "p1641"
@@ -66,6 +29,10 @@ path = "src/p2148.rs"
 [[bin]]
 name = "p2181"
 path = "src/p2181.rs"
+
+[[bin]]
+name = "p232"
+path = "src/p232.rs"
 
 [[bin]]
 name = "p2540"
@@ -130,3 +97,39 @@ path = "src/p3177.rs"
 [[bin]]
 name = "p3192"
 path = "src/p3192.rs"
+
+[[bin]]
+name = "p441"
+path = "src/p441.rs"
+
+[[bin]]
+name = "p705"
+path = "src/p705.rs"
+
+[[bin]]
+name = "p709"
+path = "src/p709.rs"
+
+[[bin]]
+name = "p880"
+path = "src/p880.rs"
+
+[[bin]]
+name = "p918"
+path = "src/p918.rs"
+
+[[bin]]
+name = "p977"
+path = "src/p977.rs"
+
+[[bin]]
+name = "update"
+path = "src/update.rs"
+
+[dependencies]
+toml = "0.8.19"
+
+[package]
+edition = "2021"
+name = "leetcode"
+version = "0.1.0"
