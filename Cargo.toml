@@ -67,6 +67,10 @@ name = "p232"
 path = "src/p232.rs"
 
 [[bin]]
+name = "p2444"
+path = "src/p2444.rs"
+
+[[bin]]
 name = "p2540"
 path = "src/p2540.rs"
 
@@ -81,6 +85,10 @@ path = "src/p2552.rs"
 [[bin]]
 name = "p2555"
 path = "src/p2555.rs"
+
+[[bin]]
+name = "p2563"
+path = "src/p2563.rs"
 
 [[bin]]
 name = "p2576"
