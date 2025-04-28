@@ -70,7 +70,7 @@ from typing import List
 
 # @lc code=start
 class Solution:
-  def countSubarrays(self, nums: List[int], k: int) -> int:
+  def countSubarrays(self, nums: list[int], k: int) -> int:
     answer = 0
     left, queue_sum, queue_score = 0, 0, 0
     for right, nums_right in enumerate(nums):
