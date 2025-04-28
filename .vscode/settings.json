@@ -1,0 +1,11 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[rust]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  }
+}
