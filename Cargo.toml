@@ -1,191 +1,190 @@
-[[bin]]
-name = "p1"
-path = "src/p1.rs"
-
-[[bin]]
-name = "p119"
-path = "src/p119.rs"
-
-[[bin]]
-name = "p1388"
-path = "src/p1388.rs"
-
-[[bin]]
-name = "p1450"
-path = "src/p1450.rs"
-
-[[bin]]
-name = "p149"
-path = "src/p149.rs"
-
-[[bin]]
-name = "p1557"
-path = "src/p1557.rs"
-
-[[bin]]
-name = "p1561"
-path = "src/p1561.rs"
-
-[[bin]]
-name = "p1641"
-path = "src/p1641.rs"
-
-[[bin]]
-name = "p1860"
-path = "src/p1860.rs"
-
-[[bin]]
-name = "p2140"
-path = "src/p2140.rs"
-
-[[bin]]
-name = "p2148"
-path = "src/p2148.rs"
-
-[[bin]]
-name = "p2181"
-path = "src/p2181.rs"
-
-[[bin]]
-name = "p219"
-path = "src/p219.rs"
-
-[[bin]]
-name = "p2218"
-path = "src/p2218.rs"
-
-[[bin]]
-name = "p2266"
-path = "src/p2266.rs"
-
-[[bin]]
-name = "p2278"
-path = "src/p2278.rs"
-
-[[bin]]
-name = "p232"
-path = "src/p232.rs"
-
-[[bin]]
-name = "p2444"
-path = "src/p2444.rs"
-
-[[bin]]
-name = "p2540"
-path = "src/p2540.rs"
-
-[[bin]]
-name = "p2549"
-path = "src/p2549.rs"
-
-[[bin]]
-name = "p2552"
-path = "src/p2552.rs"
-
-[[bin]]
-name = "p2555"
-path = "src/p2555.rs"
-
-[[bin]]
-name = "p2563"
-path = "src/p2563.rs"
-
-[[bin]]
-name = "p2576"
-path = "src/p2576.rs"
-
-[[bin]]
-name = "p2708"
-path = "src/p2708.rs"
-
-[[bin]]
-name = "p2860"
-path = "src/p2860.rs"
-
-[[bin]]
-name = "p2874"
-path = "src/p2874.rs"
-
-[[bin]]
-name = "p3127"
-path = "src/p3127.rs"
-
-[[bin]]
-name = "p3142"
-path = "src/p3142.rs"
-
-[[bin]]
-name = "p3143"
-path = "src/p3143.rs"
-
-[[bin]]
-name = "p3144"
-path = "src/p3144.rs"
-
-[[bin]]
-name = "p3153"
-path = "src/p3153.rs"
-
-[[bin]]
-name = "p3174"
-path = "src/p3174.rs"
-
-[[bin]]
-name = "p3176"
-path = "src/p3176.rs"
-
-[[bin]]
-name = "p3177"
-path = "src/p3177.rs"
-
-[[bin]]
-name = "p3192"
-path = "src/p3192.rs"
-
-[[bin]]
-name = "p3396"
-path = "src/p3396.rs"
-
-[[bin]]
-name = "p416"
-path = "src/p416.rs"
-
-[[bin]]
-name = "p441"
-path = "src/p441.rs"
-
-[[bin]]
-name = "p63"
-path = "src/p63.rs"
-
-[[bin]]
-name = "p705"
-path = "src/p705.rs"
-
-[[bin]]
-name = "p709"
-path = "src/p709.rs"
-
-[[bin]]
-name = "p880"
-path = "src/p880.rs"
-
-[[bin]]
-name = "p918"
-path = "src/p918.rs"
-
-[[bin]]
-name = "p977"
-path = "src/p977.rs"
-
-[[bin]]
-name = "update"
-path = "src/update.rs"
-
-[dependencies]
-toml = "0.8.19"
-
 [package]
 edition = "2021"
 name = "leetcode"
-version = "0.1.0"
+version = "0.2.0"
+
+
+[dependencies]
+indicatif = "0.17.7"
+toml = "0.8.21"
+
+
+[[bin]]
+name = "update"
+path = "rust/utils/update.rs"
+
+[[bin]]
+name = "p1"
+path = "rust/solutions/p1.rs"
+
+[[bin]]
+name = "p63"
+path = "rust/solutions/p63.rs"
+
+[[bin]]
+name = "p119"
+path = "rust/solutions/p119.rs"
+
+[[bin]]
+name = "p149"
+path = "rust/solutions/p149.rs"
+
+[[bin]]
+name = "p219"
+path = "rust/solutions/p219.rs"
+
+[[bin]]
+name = "p232"
+path = "rust/solutions/p232.rs"
+
+[[bin]]
+name = "p416"
+path = "rust/solutions/p416.rs"
+
+[[bin]]
+name = "p441"
+path = "rust/solutions/p441.rs"
+
+[[bin]]
+name = "p705"
+path = "rust/solutions/p705.rs"
+
+[[bin]]
+name = "p709"
+path = "rust/solutions/p709.rs"
+
+[[bin]]
+name = "p880"
+path = "rust/solutions/p880.rs"
+
+[[bin]]
+name = "p918"
+path = "rust/solutions/p918.rs"
+
+[[bin]]
+name = "p977"
+path = "rust/solutions/p977.rs"
+
+[[bin]]
+name = "p1388"
+path = "rust/solutions/p1388.rs"
+
+[[bin]]
+name = "p1450"
+path = "rust/solutions/p1450.rs"
+
+[[bin]]
+name = "p1557"
+path = "rust/solutions/p1557.rs"
+
+[[bin]]
+name = "p1561"
+path = "rust/solutions/p1561.rs"
+
+[[bin]]
+name = "p1641"
+path = "rust/solutions/p1641.rs"
+
+[[bin]]
+name = "p1860"
+path = "rust/solutions/p1860.rs"
+
+[[bin]]
+name = "p2140"
+path = "rust/solutions/p2140.rs"
+
+[[bin]]
+name = "p2148"
+path = "rust/solutions/p2148.rs"
+
+[[bin]]
+name = "p2181"
+path = "rust/solutions/p2181.rs"
+
+[[bin]]
+name = "p2218"
+path = "rust/solutions/p2218.rs"
+
+[[bin]]
+name = "p2266"
+path = "rust/solutions/p2266.rs"
+
+[[bin]]
+name = "p2278"
+path = "rust/solutions/p2278.rs"
+
+[[bin]]
+name = "p2444"
+path = "rust/solutions/p2444.rs"
+
+[[bin]]
+name = "p2540"
+path = "rust/solutions/p2540.rs"
+
+[[bin]]
+name = "p2549"
+path = "rust/solutions/p2549.rs"
+
+[[bin]]
+name = "p2552"
+path = "rust/solutions/p2552.rs"
+
+[[bin]]
+name = "p2555"
+path = "rust/solutions/p2555.rs"
+
+[[bin]]
+name = "p2576"
+path = "rust/solutions/p2576.rs"
+
+[[bin]]
+name = "p2708"
+path = "rust/solutions/p2708.rs"
+
+[[bin]]
+name = "p2860"
+path = "rust/solutions/p2860.rs"
+
+[[bin]]
+name = "p2874"
+path = "rust/solutions/p2874.rs"
+
+[[bin]]
+name = "p3127"
+path = "rust/solutions/p3127.rs"
+
+[[bin]]
+name = "p3142"
+path = "rust/solutions/p3142.rs"
+
+[[bin]]
+name = "p3143"
+path = "rust/solutions/p3143.rs"
+
+[[bin]]
+name = "p3144"
+path = "rust/solutions/p3144.rs"
+
+[[bin]]
+name = "p3153"
+path = "rust/solutions/p3153.rs"
+
+[[bin]]
+name = "p3174"
+path = "rust/solutions/p3174.rs"
+
+[[bin]]
+name = "p3176"
+path = "rust/solutions/p3176.rs"
+
+[[bin]]
+name = "p3177"
+path = "rust/solutions/p3177.rs"
+
+[[bin]]
+name = "p3192"
+path = "rust/solutions/p3192.rs"
+
+[[bin]]
+name = "p3396"
+path = "rust/solutions/p3396.rs"
