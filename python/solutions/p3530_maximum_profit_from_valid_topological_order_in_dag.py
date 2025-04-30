@@ -175,6 +175,7 @@ class Solution:
         return
       # Iterate through unused nodes.
       unused_scores = [score[i] for i in range(n) if (used >> i) & 1 == 0]
+      unused_scores.sort()
       unused_profit_bound = sum(
         (i + 1) * unused_score for i, unused_score in enumerate(unused_scores)
       )
@@ -263,7 +264,7 @@ def test_example_4():
 
 def test_example_5():
   n = 3
-  edges = [[0,2]]
-  score = [60084,34608,25733]
+  edges = [[0, 2]]
+  score = [60084, 34608, 25733]
   expected = 231975
   assert Solution().maxProfit(n, edges, score) == expected
