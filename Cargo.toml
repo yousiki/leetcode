@@ -5,8 +5,8 @@ version = "0.2.0"
 
 
 [dependencies]
-indicatif = "0.17.7"
-toml = "0.8.21"
+indicatif = "0.17.11"
+toml = "0.8.22"
 
 
 [[bin]]
