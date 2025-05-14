@@ -148,6 +148,8 @@
 
 # @lc code=start
 class Solution:
+  max_profit: int | float
+
   def maxProfit(self, n: int, edges: list[list[int]], score: list[int]) -> int:
     adjacent_nodes = [[] for _ in range(n)]
     indegree = [0] * n
@@ -155,7 +157,7 @@ class Solution:
       adjacent_nodes[v].append(u)
       indegree[u] += 1
 
-    max_profit = float("-inf")
+    self.max_profit = float("-inf")
 
     def search(used: int, profit: int):
       """
@@ -168,10 +170,9 @@ class Solution:
       Note:
         The global `indegree` maintains the indegree of nodes corresponding to `used`.
       """
-      nonlocal max_profit
       # If all nodes are used, return 0.
       if used == (1 << n) - 1:
-        max_profit = max(max_profit, profit)
+        self.max_profit = max(self.max_profit, profit)
         return
       # Iterate through unused nodes.
       unused_scores = [score[i] for i in range(n) if (used >> i) & 1 == 0]
@@ -179,7 +180,7 @@ class Solution:
       unused_profit_bound = sum(
         (i + 1) * unused_score for i, unused_score in enumerate(unused_scores)
       )
-      if profit + unused_profit_bound <= max_profit:
+      if profit + unused_profit_bound <= self.max_profit:
         return  # Prune the search space.
       num_unused = len(unused_scores)
       # Iterate through zero-indegree nodes.
@@ -201,7 +202,7 @@ class Solution:
 
     search(0, 0)
 
-    return max_profit
+    return self.max_profit
 
 
 # @lc code=end

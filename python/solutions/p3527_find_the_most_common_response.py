@@ -77,7 +77,8 @@ class Solution:
     from itertools import chain
 
     return min(
-      Counter(chain(*map(set, responses))).items(), key=lambda x: (-x[1], x[0])
+      Counter(chain(*[set(response) for response in responses])).items(),
+      key=lambda x: (-x[1], x[0]),
     )[0]
 
 
