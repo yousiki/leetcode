@@ -65,9 +65,6 @@
 #
 #
 
-from typing import List
-
-
 # @lc code=start
 class Solution:
   def countSubarrays(self, nums: list[int], k: int) -> int:
