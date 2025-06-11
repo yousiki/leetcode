@@ -1,0 +1,99 @@
+# LeetCode Solutions Project Guide
+
+This project contains LeetCode solutions written in both Python and Rust. The project follows a specific structure and workflow that the Cursor AI should be aware of.
+
+## Project Structure
+
+- `python/solutions/`: Contains all Python solutions
+- `rust/solutions/`: Contains all Rust solutions
+- `pyproject.toml`: Python project configuration
+- `Cargo.toml`: Rust project configuration
+- `uv.lock`: Python dependency lock file
+
+## Development Tools
+
+- Python dependencies are managed using `uv`
+- Test execution should use `uv run pytest` instead of direct `pytest`
+- Rust dependencies are managed using Cargo
+
+## Solution File Structure
+
+Each solution file follows this pattern:
+
+1. LeetCode problem description in docstring
+2. Solution class with the required method
+3. Test cases based on examples from the problem description
+
+### Python Solution Template
+
+```python
+# @lc code=start
+class Solution:
+    def methodName(self, param1: type1, param2: type2) -> returnType:
+        # Solution implementation goes here
+        pass
+
+# @lc code=end
+
+def test_example_1():
+    # Test case based on Example 1 from problem description
+    assert Solution().methodName(input1, input2) == expected_output
+
+def test_example_2():
+    # Test case based on Example 2 from problem description
+    assert Solution().methodName(input1, input2) == expected_output
+```
+
+### Rust Solution Template
+
+```rust
+// @lc code=start
+impl Solution {
+    pub fn method_name(param1: type1, param2: type2) -> returnType {
+        // Solution implementation goes here
+    }
+}
+// @lc code=end
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn case1() {
+        // Test case based on Example 1 from problem description
+        assert_eq!(Solution::method_name(input1, input2), expected_output);
+    }
+
+    #[test]
+    fn case2() {
+        // Test case based on Example 2 from problem description
+        assert_eq!(Solution::method_name(input1, input2), expected_output);
+    }
+}
+```
+
+## AI Assistant Guidelines
+
+1. When a new LeetCode problem is pulled via VSCode extension:
+   - The file will be created with the problem description and empty solution class
+   - The AI should add test cases based on the examples in the problem description
+   - The AI should NOT implement the solution - leave that to the user
+   - Test cases should follow the exact same pattern as other problems in the codebase
+
+2. Test Case Generation:
+   - Extract test cases from the problem description's examples
+   - Use consistent naming: `test_example_1()`, `test_example_2()`, etc. for Python
+   - Use consistent naming: `case1()`, `case2()`, etc. for Rust
+   - Include all assertions and expected outputs from the examples
+   - Follow the exact same format as existing test cases in the codebase
+
+3. Code Style:
+   - Follow the existing code style in the codebase
+   - Use type hints in Python
+   - Follow Rust's standard formatting guidelines
+   - Maintain consistent indentation and spacing
+
+4. Running Tests:
+   - Always use `uv run pytest` for Python tests
+   - Use `cargo test` for Rust tests
