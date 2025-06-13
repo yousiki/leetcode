@@ -12,39 +12,36 @@
 
   outputs =
     inputs@{ flake-parts, ... }:
-    flake-parts.lib.mkFlake { inherit inputs; } (
-      top@{
-        config,
-        withSystem,
-        moduleWithSystem,
-        ...
-      }:
-      {
-        imports = [
-          inputs.devshell.flakeModule
-        ];
-        flake = {
-          # Put your original flake attributes here.
-        };
-        systems = [
-          "x86_64-linux"
-          "x86_64-darwin"
-          "aarch64-darwin"
-        ];
-        perSystem =
-          { config, pkgs, ... }:
-          {
-            devshells.default = {
-              name = "leetcode-rs";
-              packages = with pkgs; [
-                cargo
-                clippy
-                leetcode-cli
-                rust-analyzer
-                rustfmt
-              ];
+    flake-parts.lib.mkFlake { inherit inputs; } (top: {
+      imports = [
+        inputs.devshell.flakeModule
+      ];
+      flake = {
+        # Put your original flake attributes here.
+      };
+      systems = [
+        "x86_64-linux"
+        "x86_64-darwin"
+        "aarch64-darwin"
+      ];
+      perSystem =
+        { pkgs, ... }:
+        {
+          devshells.default = {
+            name = "leetcode-rs";
+            packages = with pkgs; [
+              cargo
+              clippy
+              leetcode-cli
+              rust-analyzer
+              rustfmt
+            ];
+            devshell.startup = {
+              alias.text = ''
+                alias lc=leetcode
+              '';
             };
           };
-      }
-    );
+        };
+    });
 }
