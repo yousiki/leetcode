@@ -8,6 +8,10 @@
       url = "github:numtide/devshell";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    leetcode-cli = {
+      url = "github:yousiki/leetcode-cli";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -25,8 +29,15 @@
         "aarch64-darwin"
       ];
       perSystem =
-        { pkgs, ... }:
+        { pkgs, system, ... }:
         {
+          _module.args.pkgs = import inputs.nixpkgs {
+            inherit system;
+            overlays = [
+              inputs.leetcode-cli.overlay.${system}
+            ];
+          };
+
           devshells.default = {
             name = "leetcode-rs";
             packages = with pkgs; [

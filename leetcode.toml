@@ -1,0 +1,24 @@
+[code]
+editor = "zed"
+lang = "rust"
+edit_code_marker = true
+start_marker = "@lc code=start"
+end_marker = "@lc code=end"
+comment_problem_desc = true
+comment_leading = "//"
+test = true
+pick = "${slug}"
+inject_before = ["#[allow(unused)]", "struct Solution;", "", "#[allow(unused)]"]
+inject_after = ["", "#[cfg(test)]", "mod tests {", "    use super::*;", "", "    #[test]", "    fn test_solution() { }", "}", ""]
+
+
+[cookies]
+csrf = ""
+session = ""
+site = "leetcode.cn"
+
+[storage]
+root = "~/.leetcode"
+code = "src"
+scripts = "scripts"
+cache = "Problems"

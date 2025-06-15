@@ -1,6 +1,6 @@
-/leetcode.toml
 /Problems
 /src/*.tests.dat
+/.env
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,linux,windows,vim,emacs,visualstudiocode,rust
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,windows,vim,emacs,visualstudiocode,rust
