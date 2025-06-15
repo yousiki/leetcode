@@ -41,15 +41,27 @@
           devshells.default = {
             name = "leetcode-rs";
             packages = with pkgs; [
+              # LeetCode CLI
+              leetcode-cli
+              # Rust tools
               cargo
               clippy
-              leetcode-cli
               rust-analyzer
               rustfmt
+              # Nix tools
+              nil
+              nixd
             ];
             devshell.startup = {
+              # Alias for leetcode-cli
               alias.text = ''
                 alias lc=leetcode
+              '';
+              # Set the environment variables
+              env.text = ''
+                if [ -f ./.env ]; then
+                  source ./.env
+                fi
               '';
             };
           };
