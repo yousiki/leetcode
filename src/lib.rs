@@ -18,3 +18,9 @@ mod count_special_triplets;
 
 #[path = "maximum-difference-between-increasing-elements.rs"]
 mod maximum_difference_between_increasing_elements;
+
+#[path = "maximum-product-of-first-and-last-elements-of-a-subsequence.rs"]
+mod maximum_product_of_first_and_last_elements_of_a_subsequence;
+
+#[path = "find-weighted-median-node-in-tree.rs"]
+mod find_weighted_median_node_in_tree;
