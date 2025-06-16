@@ -15,3 +15,6 @@ mod generate_tag_for_video_caption;
 
 #[path = "count-special-triplets.rs"]
 mod count_special_triplets;
+
+#[path = "maximum-difference-between-increasing-elements.rs"]
+mod maximum_difference_between_increasing_elements;
