@@ -8,11 +8,11 @@
       url = "github:numtide/devshell";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    leetcode-cli.url = "github:yousiki/leetcode-cli";
     treefmt-nix = {
       url = "github:numtide/treefmt-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    leetcode-cli.url = "github:yousiki/leetcode-cli";
   };
 
   outputs =
@@ -27,6 +27,7 @@
       };
       systems = [
         "x86_64-linux"
+        "aarch64-linux"
         "x86_64-darwin"
         "aarch64-darwin"
       ];
@@ -36,18 +37,15 @@
           _module.args.pkgs = import inputs.nixpkgs {
             inherit system;
             overlays = [
-              inputs.leetcode-cli.overlay.${system}
+              inputs.leetcode-cli.overlays.default
             ];
           };
 
           treefmt.config = {
             projectRootFile = "flake.nix";
             programs = {
-              # Nix formatter
               nixfmt.enable = true;
-              # Rust formatter
               rustfmt.enable = true;
-              # TOML formatter
               taplo.enable = true;
             };
           };
@@ -82,4 +80,13 @@
           };
         };
     });
+
+  nixConfig = {
+    extra-substituters = [
+      "https://nichijou.cachix.org"
+    ];
+    extra-trusted-public-keys = [
+      "nichijou.cachix.org-1:rbaTU9nLgVW9BK/HSV41vsag6A7/A/caBpcX+cR/6Ps="
+    ];
+  };
 }
