@@ -9,7 +9,17 @@ comment_leading = "//"
 test = true
 pick = "${slug}"
 inject_before = ["#[allow(unused)]", "struct Solution;", "", "#[allow(unused)]"]
-inject_after = ["", "#[cfg(test)]", "mod tests {", "    use super::*;", "", "    #[test]", "    fn test_solution() { }", "}", ""]
+inject_after = [
+  "",
+  "#[cfg(test)]",
+  "mod tests {",
+  "    use super::*;",
+  "",
+  "    #[test]",
+  "    fn test_solution() { }",
+  "}",
+  "",
+]
 
 
 [cookies]
