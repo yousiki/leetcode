@@ -65,8 +65,6 @@
               # Nix tools
               nil
               nixd
-              # Formatting
-              config.treefmt.build.wrapper
             ];
             devshell.startup = {
               # Alias for leetcode-cli
