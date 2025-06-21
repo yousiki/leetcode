@@ -6,7 +6,7 @@ start_marker = "@lc code=start"
 end_marker = "@lc code=end"
 comment_problem_desc = true
 comment_leading = "//"
-test = true
+test = false
 pick = "${slug}"
 inject_before = ["#[allow(unused)]", "struct Solution;", "", "#[allow(unused)]"]
 inject_after = [
@@ -29,6 +29,6 @@ site = "leetcode.cn"
 
 [storage]
 root = "~/.leetcode"
-code = "src"
+code = "src/solutions"
 scripts = "scripts"
 cache = "Problems"

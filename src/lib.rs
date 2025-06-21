@@ -22,6 +22,9 @@ mod maximum_product_of_first_and_last_elements_of_a_subsequence;
 #[path = "solutions/minimize-the-maximum-difference-of-pairs.rs"]
 mod minimize_the_maximum_difference_of_pairs;
 
+#[path = "solutions/minimum-deletions-to-make-string-k-special.rs"]
+mod minimum_deletions_to_make_string_k_special;
+
 #[path = "solutions/minimum-steps-to-convert-string-with-operations.rs"]
 mod minimum_steps_to_convert_string_with_operations;
 
