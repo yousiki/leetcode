@@ -47,11 +47,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1750489629,
-        "narHash": "sha256-P8GfRS59B2Cm19mv0hmstxBBReZyI25fxcRZvFT8yuw=",
+        "lastModified": 1750514174,
+        "narHash": "sha256-kUFCfRGE0l+RdQjQXa1/YL/1lAg+6bbZiae7I19drqo=",
         "owner": "yousiki",
         "repo": "leetcode-cli",
-        "rev": "bd7576ce08a35f60eab66d23a3e86dd267304375",
+        "rev": "6bade77622b96a0451654f5c893f90f5a52f2130",
         "type": "github"
       },
       "original": {
@@ -114,11 +114,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1750215678,
-        "narHash": "sha256-Rc/ytpamXRf6z8UA2SGa4aaWxUXRbX2MAWIu2C8M+ok=",
+        "lastModified": 1750386251,
+        "narHash": "sha256-1ovgdmuDYVo5OUC5NzdF+V4zx2uT8RtsgZahxidBTyw=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "5395fb3ab3f97b9b7abca147249fa2e8ed27b192",
+        "rev": "076e8c6678d8c54204abcb4b1b14c366835a58bb",
         "type": "github"
       },
       "original": {

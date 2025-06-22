@@ -56,6 +56,7 @@
               # LeetCode CLI
               leetcode-cli
               # Rust tools
+              rustc
               cargo
               clippy
               rust-analyzer
@@ -63,13 +64,10 @@
               # Nix tools
               nil
               nixd
+              # Editor
+              helix
             ];
             devshell.startup = {
-              # Alias for leetcode-cli
-              alias.text = ''
-                alias lc=leetcode
-                alias fmt=treefmt
-              '';
               # Set the environment variables
               env.text = ''
                 if [ -f ./.env ]; then
