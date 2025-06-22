@@ -16,9 +16,6 @@ mod find_weighted_median_node_in_tree;
 #[path = "solutions/generate-tag-for-video-caption.rs"]
 mod generate_tag_for_video_caption;
 
-#[path = "solutions/kth-smallest-path-xor-sum.rs"]
-mod kth_smallest_path_xor_sum;
-
 #[path = "solutions/max-difference-you-can-get-from-changing-an-integer.rs"]
 mod max_difference_you_can_get_from_changing_an_integer;
 
@@ -42,3 +39,4 @@ mod minimum_steps_to_convert_string_with_operations;
 
 #[path = "solutions/two-sum.rs"]
 mod two_sum;
+
