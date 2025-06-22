@@ -7,6 +7,9 @@ mod count_prime_gap_balanced_subarrays;
 #[path = "solutions/count-special-triplets.rs"]
 mod count_special_triplets;
 
+#[path = "solutions/divide-a-string-into-groups-of-size-k.rs"]
+mod divide_a_string_into_groups_of_size_k;
+
 #[path = "solutions/find-maximum-area-of-a-triangle.rs"]
 mod find_maximum_area_of_a_triangle;
 
