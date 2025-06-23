@@ -49,6 +49,9 @@ mod minimum_increments_to_equalize_leaf_paths;
 #[path = "solutions/minimum-steps-to-convert-string-with-operations.rs"]
 mod minimum_steps_to_convert_string_with_operations;
 
+#[path = "solutions/sum-of-k-mirror-numbers.rs"]
+mod sum_of_k_mirror_numbers;
+
 #[path = "solutions/two-sum.rs"]
 mod two_sum;
 
