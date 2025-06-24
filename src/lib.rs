@@ -13,6 +13,9 @@ mod count_special_triplets;
 #[path = "solutions/divide-a-string-into-groups-of-size-k.rs"]
 mod divide_a_string_into_groups_of_size_k;
 
+#[path = "solutions/find-all-k-distant-indices-in-an-array.rs"]
+mod find_all_k_distant_indices_in_an_array;
+
 #[path = "solutions/find-maximum-area-of-a-triangle.rs"]
 mod find_maximum_area_of_a_triangle;
 
