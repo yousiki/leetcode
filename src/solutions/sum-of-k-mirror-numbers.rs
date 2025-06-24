@@ -63,13 +63,14 @@
 #[allow(unused)]
 struct Solution;
 
-#[allow(unused)]
 // @lc code=start
+#[allow(unused)]
 struct MirrorNumbersEvenDigits {
     prefix: i64,
 }
 
 impl MirrorNumbersEvenDigits {
+    #[allow(unused)]
     fn new() -> Self {
         Self { prefix: 0 }
     }
@@ -85,12 +86,14 @@ impl Iterator for MirrorNumbersEvenDigits {
     }
 }
 
+#[allow(unused)]
 struct MirrorNumbersOddDigits {
     prefix: i64,
     middle: i64,
 }
 
 impl MirrorNumbersOddDigits {
+    #[allow(unused)]
     fn new() -> Self {
         Self {
             prefix: 0,
@@ -113,6 +116,7 @@ impl Iterator for MirrorNumbersOddDigits {
     }
 }
 
+#[allow(unused)]
 struct MirrorNumbers {
     iter_even: MirrorNumbersEvenDigits,
     iter_odd: MirrorNumbersOddDigits,
@@ -121,6 +125,7 @@ struct MirrorNumbers {
 }
 
 impl MirrorNumbers {
+    #[allow(unused)]
     fn new() -> Self {
         let mut iter_even = MirrorNumbersEvenDigits::new();
         let mut iter_odd = MirrorNumbersOddDigits::new();
@@ -177,6 +182,7 @@ fn reverse_digits(mut num: i64) -> (i64, u32) {
     (rev, pow)
 }
 
+#[allow(unused)]
 impl Solution {
     pub fn k_mirror(k: i32, n: i32) -> i64 {
         MirrorNumbers::new()
