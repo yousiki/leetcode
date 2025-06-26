@@ -28,6 +28,9 @@ mod generate_tag_for_video_caption;
 #[path = "solutions/inverse-coin-change.rs"]
 mod inverse_coin_change;
 
+#[path = "solutions/longest-binary-subsequence-less-than-or-equal-to-k.rs"]
+mod longest_binary_subsequence_less_than_or_equal_to_k;
+
 #[path = "solutions/max-difference-you-can-get-from-changing-an-integer.rs"]
 mod max_difference_you_can_get_from_changing_an_integer;
 

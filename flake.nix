@@ -64,8 +64,6 @@
               # Nix tools
               nil
               nixd
-              # Editor
-              helix
             ];
             devshell.startup = {
               # Set the environment variables

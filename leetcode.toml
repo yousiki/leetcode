@@ -1,5 +1,5 @@
 [code]
-editor = "hx"
+editor = "zeditor"
 lang = "rust"
 edit_code_marker = true
 start_marker = "@lc code=start"
