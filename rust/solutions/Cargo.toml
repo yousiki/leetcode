@@ -65,5 +65,21 @@ name = "minimum_adjacent_swaps_to_alternate_parity"
 path = "minimum_adjacent_swaps_to_alternate_parity.rs"
 
 [[test]]
+name = "minimum_deletions_to_make_string_k_special"
+path = "minimum_deletions_to_make_string_k_special.rs"
+
+[[test]]
+name = "minimum_increments_to_equalize_leaf_paths"
+path = "minimum_increments_to_equalize_leaf_paths.rs"
+
+[[test]]
+name = "minimum_steps_to_convert_string_with_operations"
+path = "minimum_steps_to_convert_string_with_operations.rs"
+
+[[test]]
+name = "sum_of_k_mirror_numbers"
+path = "sum_of_k_mirror_numbers.rs"
+
+[[test]]
 name = "two_sum"
 path = "two_sum.rs"
