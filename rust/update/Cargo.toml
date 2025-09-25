@@ -7,9 +7,9 @@ license.workspace = true
 
 [dependencies]
 clap = "4.5.48"
-toml_edit = "0.19.8"
-notify = "6.1.1"
-ctrlc = "3.4.2"
+toml_edit = "0.23.6"
+notify = "8.2.0"
+ctrlc = "3.5.0"
 
 [[bin]]
 name = "update"

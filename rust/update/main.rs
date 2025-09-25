@@ -5,7 +5,7 @@ use std::path::Path;
 use std::sync::mpsc;
 use std::thread;
 use std::time::Duration;
-use toml_edit::{ArrayOfTables, Document, Item, Table};
+use toml_edit::{ArrayOfTables, DocumentMut, Item, Table};
 
 /// Scan the solutions directory for all .rs files (excluding main.rs)
 fn scan_solution_files(solutions_dir: &Path) -> Result<Vec<String>, Box<dyn std::error::Error>> {
@@ -31,9 +31,9 @@ fn scan_solution_files(solutions_dir: &Path) -> Result<Vec<String>, Box<dyn std:
 }
 
 /// Parse the existing Cargo.toml file
-fn parse_cargo_toml(cargo_toml_path: &Path) -> Result<Document, Box<dyn std::error::Error>> {
+fn parse_cargo_toml(cargo_toml_path: &Path) -> Result<DocumentMut, Box<dyn std::error::Error>> {
     let content = fs::read_to_string(cargo_toml_path)?;
-    let doc = content.parse::<Document>()?;
+    let doc = content.parse::<DocumentMut>()?;
     Ok(doc)
 }
 
@@ -45,7 +45,7 @@ fn parse_cargo_toml(cargo_toml_path: &Path) -> Result<Document, Box<dyn std::err
 /// path = "two_sum.rs"
 /// ```
 fn update_cargo_toml(
-    doc: &mut Document,
+    doc: &mut DocumentMut,
     solution_files: &[String],
 ) -> Result<(), Box<dyn std::error::Error>> {
     // Remove existing [[test]] entries
