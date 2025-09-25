@@ -81,5 +81,9 @@ name = "sum_of_k_mirror_numbers"
 path = "sum_of_k_mirror_numbers.rs"
 
 [[test]]
+name = "triangle"
+path = "triangle.rs"
+
+[[test]]
 name = "two_sum"
 path = "two_sum.rs"
