@@ -1,0 +1,8 @@
+[workspace]
+resolver = "3"
+members = ["rust/*"]
+
+[workspace.package]
+authors = ["YouSiki <you.siki@outlook.com>"]
+edition = "2024"
+license = "MIT"

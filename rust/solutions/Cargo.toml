@@ -1,0 +1,69 @@
+[package]
+name = "solutions"
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[test]]
+name = "check_if_any_element_has_prime_frequency"
+path = "check_if_any_element_has_prime_frequency.rs"
+
+[[test]]
+name = "count_prime_gap_balanced_subarrays"
+path = "count_prime_gap_balanced_subarrays.rs"
+
+[[test]]
+name = "count_special_triplets"
+path = "count_special_triplets.rs"
+
+[[test]]
+name = "divide_a_string_into_groups_of_size_k"
+path = "divide_a_string_into_groups_of_size_k.rs"
+
+[[test]]
+name = "find_all_k_distant_indices_in_an_array"
+path = "find_all_k_distant_indices_in_an_array.rs"
+
+[[test]]
+name = "find_maximum_area_of_a_triangle"
+path = "find_maximum_area_of_a_triangle.rs"
+
+[[test]]
+name = "find_weighted_median_node_in_tree"
+path = "find_weighted_median_node_in_tree.rs"
+
+[[test]]
+name = "generate_tag_for_video_caption"
+path = "generate_tag_for_video_caption.rs"
+
+[[test]]
+name = "inverse_coin_change"
+path = "inverse_coin_change.rs"
+
+[[test]]
+name = "longest_binary_subsequence_less_than_or_equal_to_k"
+path = "longest_binary_subsequence_less_than_or_equal_to_k.rs"
+
+[[test]]
+name = "max_difference_you_can_get_from_changing_an_integer"
+path = "max_difference_you_can_get_from_changing_an_integer.rs"
+
+[[test]]
+name = "maximum_difference_between_increasing_elements"
+path = "maximum_difference_between_increasing_elements.rs"
+
+[[test]]
+name = "maximum_product_of_first_and_last_elements_of_a_subsequence"
+path = "maximum_product_of_first_and_last_elements_of_a_subsequence.rs"
+
+[[test]]
+name = "minimize_the_maximum_difference_of_pairs"
+path = "minimize_the_maximum_difference_of_pairs.rs"
+
+[[test]]
+name = "minimum_adjacent_swaps_to_alternate_parity"
+path = "minimum_adjacent_swaps_to_alternate_parity.rs"
+
+[[test]]
+name = "two_sum"
+path = "two_sum.rs"
