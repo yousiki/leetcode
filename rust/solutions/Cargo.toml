@@ -5,6 +5,10 @@ edition.workspace = true
 license.workspace = true
 
 [[test]]
+name = "build_an_array_with_stack_operations"
+path = "build_an_array_with_stack_operations.rs"
+
+[[test]]
 name = "check_if_any_element_has_prime_frequency"
 path = "check_if_any_element_has_prime_frequency.rs"
 
@@ -79,6 +83,10 @@ path = "minimum_steps_to_convert_string_with_operations.rs"
 [[test]]
 name = "sum_of_k_mirror_numbers"
 path = "sum_of_k_mirror_numbers.rs"
+
+[[test]]
+name = "top_travellers"
+path = "top_travellers.rs"
 
 [[test]]
 name = "triangle"
