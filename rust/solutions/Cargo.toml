@@ -45,6 +45,10 @@ name = "inverse_coin_change"
 path = "inverse_coin_change.rs"
 
 [[test]]
+name = "largest_triangle_area"
+path = "largest_triangle_area.rs"
+
+[[test]]
 name = "longest_binary_subsequence_less_than_or_equal_to_k"
 path = "longest_binary_subsequence_less_than_or_equal_to_k.rs"
 
