@@ -65,6 +65,10 @@ name = "maximum_product_of_first_and_last_elements_of_a_subsequence"
 path = "maximum_product_of_first_and_last_elements_of_a_subsequence.rs"
 
 [[test]]
+name = "maximum_tastiness_of_candy_basket"
+path = "maximum_tastiness_of_candy_basket.rs"
+
+[[test]]
 name = "minimize_the_maximum_difference_of_pairs"
 path = "minimize_the_maximum_difference_of_pairs.rs"
 
