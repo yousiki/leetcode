@@ -85,6 +85,10 @@ name = "minimum_increments_to_equalize_leaf_paths"
 path = "minimum_increments_to_equalize_leaf_paths.rs"
 
 [[test]]
+name = "minimum_score_triangulation_of_polygon"
+path = "minimum_score_triangulation_of_polygon.rs"
+
+[[test]]
 name = "minimum_steps_to_convert_string_with_operations"
 path = "minimum_steps_to_convert_string_with_operations.rs"
 
