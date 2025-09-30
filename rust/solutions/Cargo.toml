@@ -101,6 +101,14 @@ name = "split_array_into_fibonacci_sequence"
 path = "split_array_into_fibonacci_sequence.rs"
 
 [[test]]
+name = "squares_of_a_sorted_array"
+path = "squares_of_a_sorted_array.rs"
+
+[[test]]
+name = "subarray_sum_equals_k"
+path = "subarray_sum_equals_k.rs"
+
+[[test]]
 name = "sum_of_k_mirror_numbers"
 path = "sum_of_k_mirror_numbers.rs"
 
