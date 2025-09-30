@@ -33,6 +33,10 @@ name = "find_maximum_area_of_a_triangle"
 path = "find_maximum_area_of_a_triangle.rs"
 
 [[test]]
+name = "find_triangular_sum_of_an_array"
+path = "find_triangular_sum_of_an_array.rs"
+
+[[test]]
 name = "find_weighted_median_node_in_tree"
 path = "find_weighted_median_node_in_tree.rs"
 
