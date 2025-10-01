@@ -123,3 +123,7 @@ path = "two_sum.rs"
 [[test]]
 name = "valid_triangle_number"
 path = "valid_triangle_number.rs"
+
+[[test]]
+name = "water_bottles"
+path = "water_bottles.rs"
