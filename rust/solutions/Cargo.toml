@@ -127,3 +127,7 @@ path = "valid_triangle_number.rs"
 [[test]]
 name = "water_bottles"
 path = "water_bottles.rs"
+
+[[test]]
+name = "water_bottles_ii"
+path = "water_bottles_ii.rs"
