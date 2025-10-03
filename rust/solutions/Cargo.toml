@@ -113,6 +113,10 @@ name = "sum_of_k_mirror_numbers"
 path = "sum_of_k_mirror_numbers.rs"
 
 [[test]]
+name = "trapping_rain_water_ii"
+path = "trapping_rain_water_ii.rs"
+
+[[test]]
 name = "triangle"
 path = "triangle.rs"
 
