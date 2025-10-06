@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=2081 lang=rust
+ * @lc app=leetcode.com id=2081 lang=rust
  *
  * [2081] Sum of k-Mirror Numbers
  *
- * https://leetcode.cn/problems/sum-of-k-mirror-numbers/description/
+ * https://leetcode.com/problems/sum-of-k-mirror-numbers/description/
  *
  * algorithms
  * Hard (57.91%)

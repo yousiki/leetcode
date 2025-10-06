@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=1432 lang=rust
+ * @lc app=leetcode.com id=1432 lang=rust
  *
  * [1432] Max Difference You Can Get From Changing an Integer
  *
- * https://leetcode.cn/problems/max-difference-you-can-get-from-changing-an-integer/description/
+ * https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/description/
  *
  * algorithms
  * Medium (44.48%)

@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=11 lang=rust
+ * @lc app=leetcode.com id=11 lang=rust
  *
  * [11] Container With Most Water
  *
- * https://leetcode.cn/problems/container-with-most-water/description/
+ * https://leetcode.com/problems/container-with-most-water/description/
  *
  * algorithms
  * Medium (61.56%)

@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=1039 lang=rust
+ * @lc app=leetcode.com id=1039 lang=rust
  *
  * [1039] Minimum Score Triangulation of Polygon
  *
- * https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/description/
+ * https://leetcode.com/problems/minimum-score-triangulation-of-polygon/description/
  *
  * algorithms
  * Medium (68.14%)

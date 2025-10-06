@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=1 lang=rust
+ * @lc app=leetcode.com id=1 lang=rust
  *
  * [1] Two Sum
  *
- * https://leetcode.cn/problems/two-sum/description/
+ * https://leetcode.com/problems/two-sum/description/
  *
  * algorithms
  * Easy (55.08%)

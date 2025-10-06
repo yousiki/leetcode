@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=3587 lang=rust
+ * @lc app=leetcode.com id=3587 lang=rust
  *
  * [3587] Minimum Adjacent Swaps to Alternate Parity
  *
- * https://leetcode.cn/problems/minimum-adjacent-swaps-to-alternate-parity/description/
+ * https://leetcode.com/problems/minimum-adjacent-swaps-to-alternate-parity/description/
  *
  * algorithms
  * Medium (45.11%)

@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=3085 lang=rust
+ * @lc app=leetcode.com id=3085 lang=rust
  *
  * [3085] Minimum Deletions to Make String K-Special
  *
- * https://leetcode.cn/problems/minimum-deletions-to-make-string-k-special/description/
+ * https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/description/
  *
  * algorithms
  * Medium (57.24%)

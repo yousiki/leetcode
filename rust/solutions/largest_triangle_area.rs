@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=812 lang=rust
+ * @lc app=leetcode.com id=812 lang=rust
  *
  * [812] Largest Triangle Area
  *
- * https://leetcode.cn/problems/largest-triangle-area/description/
+ * https://leetcode.com/problems/largest-triangle-area/description/
  *
  * algorithms
  * Easy (68.26%)

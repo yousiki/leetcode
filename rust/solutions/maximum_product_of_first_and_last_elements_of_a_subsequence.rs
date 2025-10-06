@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=3584 lang=rust
+ * @lc app=leetcode.com id=3584 lang=rust
  *
  * [3584] Maximum Product of First and Last Elements of a Subsequence
  *
- * https://leetcode.cn/problems/maximum-product-of-first-and-last-elements-of-a-subsequence/description/
+ * https://leetcode.com/problems/maximum-product-of-first-and-last-elements-of-a-subsequence/description/
  *
  * algorithms
  * Medium (45.46%)

@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=1518 lang=rust
+ * @lc app=leetcode.com id=1518 lang=rust
  *
  * [1518] Water Bottles
  *
- * https://leetcode.cn/problems/water-bottles/description/
+ * https://leetcode.com/problems/water-bottles/description/
  *
  * algorithms
  * Easy (69.89%)

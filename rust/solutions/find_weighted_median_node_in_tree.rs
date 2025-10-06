@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=3585 lang=rust
+ * @lc app=leetcode.com id=3585 lang=rust
  *
  * [3585] Find Weighted Median Node in Tree
  *
- * https://leetcode.cn/problems/find-weighted-median-node-in-tree/description/
+ * https://leetcode.com/problems/find-weighted-median-node-in-tree/description/
  *
  * algorithms
  * Hard (43.25%)

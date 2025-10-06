@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=842 lang=rust
+ * @lc app=leetcode.com id=842 lang=rust
  *
  * [842] Split Array into Fibonacci Sequence
  *
- * https://leetcode.cn/problems/split-array-into-fibonacci-sequence/description/
+ * https://leetcode.com/problems/split-array-into-fibonacci-sequence/description/
  *
  * algorithms
  * Medium (48.32%)

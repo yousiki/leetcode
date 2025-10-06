@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=3593 lang=rust
+ * @lc app=leetcode.com id=3593 lang=rust
  *
  * [3593] Minimum Increments to Equalize Leaf Paths
  *
- * https://leetcode.cn/problems/minimum-increments-to-equalize-leaf-paths/description/
+ * https://leetcode.com/problems/minimum-increments-to-equalize-leaf-paths/description/
  *
  * algorithms
  * Medium (45.06%)

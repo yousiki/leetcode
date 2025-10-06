@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=3583 lang=rust
+ * @lc app=leetcode.com id=3583 lang=rust
  *
  * [3583] Count Special Triplets
  *
- * https://leetcode.cn/problems/count-special-triplets/description/
+ * https://leetcode.com/problems/count-special-triplets/description/
  *
  * algorithms
  * Medium (44.83%)

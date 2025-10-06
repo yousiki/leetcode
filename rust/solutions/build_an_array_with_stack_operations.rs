@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=1441 lang=rust
+ * @lc app=leetcode.com id=1441 lang=rust
  *
  * [1441] Build an Array With Stack Operations
  *
- * https://leetcode.cn/problems/build-an-array-with-stack-operations/description/
+ * https://leetcode.com/problems/build-an-array-with-stack-operations/description/
  *
  * algorithms
  * Medium (72.75%)

@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=417 lang=rust
+ * @lc app=leetcode.com id=417 lang=rust
  *
  * [417] Pacific Atlantic Water Flow
  *
- * https://leetcode.cn/problems/pacific-atlantic-water-flow/description/
+ * https://leetcode.com/problems/pacific-atlantic-water-flow/description/
  *
  * algorithms
  * Medium (56.79%)

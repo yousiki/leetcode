@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=977 lang=rust
+ * @lc app=leetcode.com id=977 lang=rust
  *
  * [977] Squares of a Sorted Array
  *
- * https://leetcode.cn/problems/squares-of-a-sorted-array/description/
+ * https://leetcode.com/problems/squares-of-a-sorted-array/description/
  *
  * algorithms
  * Easy (68.86%)

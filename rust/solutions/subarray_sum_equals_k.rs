@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=560 lang=rust
+ * @lc app=leetcode.com id=560 lang=rust
  *
  * [560] Subarray Sum Equals K
  *
- * https://leetcode.cn/problems/subarray-sum-equals-k/description/
+ * https://leetcode.com/problems/subarray-sum-equals-k/description/
  *
  * algorithms
  * Medium (45.51%)

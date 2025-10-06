@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=2517 lang=rust
+ * @lc app=leetcode.com id=2517 lang=rust
  *
  * [2517] Maximum Tastiness of Candy Basket
  *
- * https://leetcode.cn/problems/maximum-tastiness-of-candy-basket/description/
+ * https://leetcode.com/problems/maximum-tastiness-of-candy-basket/description/
  *
  * algorithms
  * Medium (72.89%)

@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=611 lang=rust
+ * @lc app=leetcode.com id=611 lang=rust
  *
  * [611] Valid Triangle Number
  *
- * https://leetcode.cn/problems/valid-triangle-number/description/
+ * https://leetcode.com/problems/valid-triangle-number/description/
  *
  * algorithms
  * Medium (54.86%)

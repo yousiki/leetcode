@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=3579 lang=rust
+ * @lc app=leetcode.com id=3579 lang=rust
  *
  * [3579] Minimum Steps to Convert String with Operations
  *
- * https://leetcode.cn/problems/minimum-steps-to-convert-string-with-operations/description/
+ * https://leetcode.com/problems/minimum-steps-to-convert-string-with-operations/description/
  *
  * algorithms
  * Hard (66.14%)

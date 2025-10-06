@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=2311 lang=rust
+ * @lc app=leetcode.com id=2311 lang=rust
  *
  * [2311] Longest Binary Subsequence Less Than or Equal to K
  *
- * https://leetcode.cn/problems/longest-binary-subsequence-less-than-or-equal-to-k/description/
+ * https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/description/
  *
  * algorithms
  * Medium (46.90%)

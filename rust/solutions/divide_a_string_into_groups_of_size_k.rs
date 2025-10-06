@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=2138 lang=rust
+ * @lc app=leetcode.com id=2138 lang=rust
  *
  * [2138] Divide a String Into Groups of Size k
  *
- * https://leetcode.cn/problems/divide-a-string-into-groups-of-size-k/description/
+ * https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/description/
  *
  * algorithms
  * Easy (72.65%)

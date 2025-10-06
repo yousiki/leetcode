@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=3592 lang=rust
+ * @lc app=leetcode.com id=3592 lang=rust
  *
  * [3592] Inverse Coin Change
  *
- * https://leetcode.cn/problems/inverse-coin-change/description/
+ * https://leetcode.com/problems/inverse-coin-change/description/
  *
  * algorithms
  * Medium (63.57%)

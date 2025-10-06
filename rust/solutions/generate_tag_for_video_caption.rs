@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=3582 lang=rust
+ * @lc app=leetcode.com id=3582 lang=rust
  *
  * [3582] Generate Tag for Video Caption
  *
- * https://leetcode.cn/problems/generate-tag-for-video-caption/description/
+ * https://leetcode.com/problems/generate-tag-for-video-caption/description/
  *
  * algorithms
  * Easy (33.69%)

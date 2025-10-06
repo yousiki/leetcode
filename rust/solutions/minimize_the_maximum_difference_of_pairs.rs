@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=2616 lang=rust
+ * @lc app=leetcode.com id=2616 lang=rust
  *
  * [2616] Minimize the Maximum Difference of Pairs
  *
- * https://leetcode.cn/problems/minimize-the-maximum-difference-of-pairs/description/
+ * https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/description/
  *
  * algorithms
  * Medium (51.82%)

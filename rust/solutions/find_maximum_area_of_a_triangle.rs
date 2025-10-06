@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=3588 lang=rust
+ * @lc app=leetcode.com id=3588 lang=rust
  *
  * [3588] Find Maximum Area of a Triangle
  *
- * https://leetcode.cn/problems/find-maximum-area-of-a-triangle/description/
+ * https://leetcode.com/problems/find-maximum-area-of-a-triangle/description/
  *
  * algorithms
  * Medium (45.65%)

@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=3100 lang=rust
+ * @lc app=leetcode.com id=3100 lang=rust
  *
  * [3100] Water Bottles II
  *
- * https://leetcode.cn/problems/water-bottles-ii/description/
+ * https://leetcode.com/problems/water-bottles-ii/description/
  *
  * algorithms
  * Medium (68.26%)

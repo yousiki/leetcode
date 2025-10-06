@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=2016 lang=rust
+ * @lc app=leetcode.com id=2016 lang=rust
  *
  * [2016] Maximum Difference Between Increasing Elements
  *
- * https://leetcode.cn/problems/maximum-difference-between-increasing-elements/description/
+ * https://leetcode.com/problems/maximum-difference-between-increasing-elements/description/
  *
  * algorithms
  * Easy (62.03%)

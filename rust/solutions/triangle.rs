@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=120 lang=rust
+ * @lc app=leetcode.com id=120 lang=rust
  *
  * [120] Triangle
  *
- * https://leetcode.cn/problems/triangle/description/
+ * https://leetcode.com/problems/triangle/description/
  *
  * algorithms
  * Medium (69.63%)

@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=3591 lang=rust
+ * @lc app=leetcode.com id=3591 lang=rust
  *
  * [3591] Check if Any Element Has Prime Frequency
  *
- * https://leetcode.cn/problems/check-if-any-element-has-prime-frequency/description/
+ * https://leetcode.com/problems/check-if-any-element-has-prime-frequency/description/
  *
  * algorithms
  * Easy (60.89%)

@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=3589 lang=rust
+ * @lc app=leetcode.com id=3589 lang=rust
  *
  * [3589] Count Prime-Gap Balanced Subarrays
  *
- * https://leetcode.cn/problems/count-prime-gap-balanced-subarrays/description/
+ * https://leetcode.com/problems/count-prime-gap-balanced-subarrays/description/
  *
  * algorithms
  * Medium (43.86%)

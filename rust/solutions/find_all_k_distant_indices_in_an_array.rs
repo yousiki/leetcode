@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=2200 lang=rust
+ * @lc app=leetcode.com id=2200 lang=rust
  *
  * [2200] Find All K-Distant Indices in an Array
  *
- * https://leetcode.cn/problems/find-all-k-distant-indices-in-an-array/description/
+ * https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/description/
  *
  * algorithms
  * Easy (64.55%)

@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=407 lang=rust
+ * @lc app=leetcode.com id=407 lang=rust
  *
  * [407] Trapping Rain Water II
  *
- * https://leetcode.cn/problems/trapping-rain-water-ii/description/
+ * https://leetcode.com/problems/trapping-rain-water-ii/description/
  *
  * algorithms
  * Hard (57.46%)

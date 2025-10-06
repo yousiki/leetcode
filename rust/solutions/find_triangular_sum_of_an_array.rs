@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=2221 lang=rust
+ * @lc app=leetcode.com id=2221 lang=rust
  *
  * [2221] Find Triangular Sum of an Array
  *
- * https://leetcode.cn/problems/find-triangular-sum-of-an-array/description/
+ * https://leetcode.com/problems/find-triangular-sum-of-an-array/description/
  *
  * algorithms
  * Medium (78.92%)
