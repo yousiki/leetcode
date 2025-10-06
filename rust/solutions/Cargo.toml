@@ -13,8 +13,16 @@ name = "check_if_any_element_has_prime_frequency"
 path = "check_if_any_element_has_prime_frequency.rs"
 
 [[test]]
+name = "compute_alternating_sum"
+path = "compute_alternating_sum.rs"
+
+[[test]]
 name = "container_with_most_water"
 path = "container_with_most_water.rs"
+
+[[test]]
+name = "count_no_zero_pairs_that_sum_to_n"
+path = "count_no_zero_pairs_that_sum_to_n.rs"
 
 [[test]]
 name = "count_prime_gap_balanced_subarrays"
@@ -61,6 +69,10 @@ name = "longest_binary_subsequence_less_than_or_equal_to_k"
 path = "longest_binary_subsequence_less_than_or_equal_to_k.rs"
 
 [[test]]
+name = "longest_subsequence_with_non_zero_bitwise_xor"
+path = "longest_subsequence_with_non_zero_bitwise_xor.rs"
+
+[[test]]
 name = "max_difference_you_can_get_from_changing_an_integer"
 path = "max_difference_you_can_get_from_changing_an_integer.rs"
 
@@ -103,6 +115,10 @@ path = "minimum_steps_to_convert_string_with_operations.rs"
 [[test]]
 name = "pacific_atlantic_water_flow"
 path = "pacific_atlantic_water_flow.rs"
+
+[[test]]
+name = "remove_k_balanced_substrings"
+path = "remove_k_balanced_substrings.rs"
 
 [[test]]
 name = "split_array_into_fibonacci_sequence"
