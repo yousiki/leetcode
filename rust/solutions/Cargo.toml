@@ -5,6 +5,10 @@ edition.workspace = true
 license.workspace = true
 
 [[test]]
+name = "avoid_flood_in_the_city"
+path = "avoid_flood_in_the_city.rs"
+
+[[test]]
 name = "build_an_array_with_stack_operations"
 path = "build_an_array_with_stack_operations.rs"
 
