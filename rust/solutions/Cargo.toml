@@ -137,6 +137,10 @@ name = "subarray_sum_equals_k"
 path = "subarray_sum_equals_k.rs"
 
 [[test]]
+name = "successful_pairs_of_spells_and_potions"
+path = "successful_pairs_of_spells_and_potions.rs"
+
+[[test]]
 name = "sum_of_k_mirror_numbers"
 path = "sum_of_k_mirror_numbers.rs"
 
