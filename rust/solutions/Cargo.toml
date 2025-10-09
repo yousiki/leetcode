@@ -49,6 +49,10 @@ name = "find_maximum_area_of_a_triangle"
 path = "find_maximum_area_of_a_triangle.rs"
 
 [[test]]
+name = "find_the_minimum_amount_of_time_to_brew_potions"
+path = "find_the_minimum_amount_of_time_to_brew_potions.rs"
+
+[[test]]
 name = "find_triangular_sum_of_an_array"
 path = "find_triangular_sum_of_an_array.rs"
 
