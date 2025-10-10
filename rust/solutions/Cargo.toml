@@ -153,6 +153,10 @@ name = "swim_in_rising_water"
 path = "swim_in_rising_water.rs"
 
 [[test]]
+name = "taking_maximum_energy_from_the_mystic_dungeon"
+path = "taking_maximum_energy_from_the_mystic_dungeon.rs"
+
+[[test]]
 name = "trapping_rain_water_ii"
 path = "trapping_rain_water_ii.rs"
 
