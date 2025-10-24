@@ -125,6 +125,10 @@ name = "minimum_steps_to_convert_string_with_operations"
 path = "minimum_steps_to_convert_string_with_operations.rs"
 
 [[test]]
+name = "next_greater_numerically_balanced_number"
+path = "next_greater_numerically_balanced_number.rs"
+
+[[test]]
 name = "pacific_atlantic_water_flow"
 path = "pacific_atlantic_water_flow.rs"
 
