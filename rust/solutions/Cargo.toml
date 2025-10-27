@@ -133,6 +133,10 @@ name = "next_greater_numerically_balanced_number"
 path = "next_greater_numerically_balanced_number.rs"
 
 [[test]]
+name = "number_of_laser_beams_in_a_bank"
+path = "number_of_laser_beams_in_a_bank.rs"
+
+[[test]]
 name = "pacific_atlantic_water_flow"
 path = "pacific_atlantic_water_flow.rs"
 
