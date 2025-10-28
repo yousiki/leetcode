@@ -89,6 +89,10 @@ name = "longest_subsequence_with_non_zero_bitwise_xor"
 path = "longest_subsequence_with_non_zero_bitwise_xor.rs"
 
 [[test]]
+name = "make_array_elements_equal_to_zero"
+path = "make_array_elements_equal_to_zero.rs"
+
+[[test]]
 name = "max_difference_you_can_get_from_changing_an_integer"
 path = "max_difference_you_can_get_from_changing_an_integer.rs"
 
