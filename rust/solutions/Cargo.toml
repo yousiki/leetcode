@@ -149,6 +149,10 @@ name = "remove_k_balanced_substrings"
 path = "remove_k_balanced_substrings.rs"
 
 [[test]]
+name = "smallest_number_with_all_set_bits"
+path = "smallest_number_with_all_set_bits.rs"
+
+[[test]]
 name = "split_array_into_fibonacci_sequence"
 path = "split_array_into_fibonacci_sequence.rs"
 
