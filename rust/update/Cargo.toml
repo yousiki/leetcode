@@ -6,10 +6,10 @@ edition.workspace = true
 license.workspace = true
 
 [dependencies]
-clap = "4.5.48"
-toml_edit = "0.23.6"
+clap = "4.5.57"
+toml_edit = "0.24.0"
 notify = "8.2.0"
-ctrlc = "3.5.0"
+ctrlc = "3.5.1"
 
 [[bin]]
 name = "update"
