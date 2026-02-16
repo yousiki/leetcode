@@ -153,6 +153,10 @@ name = "remove_k_balanced_substrings"
 path = "remove_k_balanced_substrings.rs"
 
 [[test]]
+name = "reverse_bits"
+path = "reverse_bits.rs"
+
+[[test]]
 name = "smallest_number_with_all_set_bits"
 path = "smallest_number_with_all_set_bits.rs"
 
